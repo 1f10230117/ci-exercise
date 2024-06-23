@@ -6,6 +6,7 @@ def fact(n):
         result *= i
     return result
 
+
 def gcd(a, b):
     if b == 0:
         if a <= 0:
@@ -19,4 +20,3 @@ def gcd(a, b):
             return b
     else:
         return gcd(b, a % b)
-    
