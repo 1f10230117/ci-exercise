@@ -9,12 +9,12 @@ def fact(n):
 def gcd(a, b):
     if b == 0:
         if a <= 0:
-            return a * -1
+            return a * (-1)
         else:
             return a
     elif a == 0:
         if b <= 0:
-            return b * -1
+            return b * (-1)
         else:
             return b
     else:
