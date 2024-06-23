@@ -15,7 +15,7 @@ class TestTarget(unittest.TestCase):
             fact(-1)
 
     def test_gcd_positive(self):
-        self.assertEqual(gcd(7, 3),1)
+        self.assertEqual(gcd(7, 3), 1)
         self.assertEqual(gcd(56, 98), 14)
     
     def test_gcd_negative(self):
