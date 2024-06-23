@@ -14,7 +14,6 @@ class TestTarget(unittest.TestCase):
         with self.assertRaises(ValueError):
             fact(-1)
 
-
 class TestTarget(unittest.TestCase):
     def test_gcd_positive(self):
         self.assertEqual(gcd(7, 3),1)
