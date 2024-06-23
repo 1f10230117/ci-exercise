@@ -6,10 +6,13 @@ def fact(n):
         result *= i
     return result
 
+
 def gcd(a, b):
     if b == 0:
-        return a
-    elif a == 0:
-        return b
+        if a <= 0:
+            return a * -1
+        else:
+            return a
     else:
         return gcd(b, a % b)
+    
